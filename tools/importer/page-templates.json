@@ -1,0 +1,27 @@
+{
+  "templates": [
+    {
+      "name": "Homepage",
+      "urls": ["https://www.becu.org/"],
+      "description": "BECU homepage template with hero carousel, introductory text section, and product/service cards grid. Features a 4-slide rotating carousel at top, centered heading with description paragraph, and 8 product cards in a responsive grid layout.",
+      "blocks": [
+        {
+          "name": "carousel",
+          "instances": [
+            "section.hero.hero-carousel-container .component-hero-carousel"
+          ],
+          "section": "hero"
+        },
+        {
+          "name": "cards",
+          "instances": [
+            ".fullbleed-wrapper .component-secondary-promo",
+            ".fullbleed-wrapper .component-retail-promo",
+            ".fullbleed-wrapper .component-blog-article-promo"
+          ],
+          "section": "products"
+        }
+      ]
+    }
+  ]
+}
