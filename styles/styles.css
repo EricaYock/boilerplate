@@ -337,6 +337,11 @@ main > .section:first-of-type {
   }
 }
 
+/* specific heading overrides */
+h2#committed-to-your-financial-well-being {
+  color: green;
+}
+
 /* section metadata */
 main .section.light,
 main .section.highlight {
